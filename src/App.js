@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from'./components/Navbar/Navbar';
 import HotelList from './components/HotelList'
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App(){
   return (
@@ -14,12 +14,12 @@ function App(){
       height: '100%'
     }}>
     
-    <Router>
+
       <div className="app">
           <Navbar />
           <HotelList/>
         </div>
-    </Router>
+
     </div>
   );
 }
